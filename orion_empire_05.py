@@ -293,8 +293,13 @@ class VueGalaxie(Perspective):
         
         self.btncreerstation=Button(self.cadreetataction,text="Creer Station",command=self.creerstation)
         self.btncreerstation.pack()
+        
         self.btnvuesysteme=Button(self.cadreetataction,text="Voir systeme",command=self.voirsysteme)
         self.btnvuesysteme.pack(side=BOTTOM)
+        
+        self.btnvuesysteme2=Button(self.cadreetataction,text="salut les gars",command=self.voirsysteme)
+        self.btnvuesysteme2.pack(side=BOTTOM)
+        
         
         self.lbselectecible=Label(self.cadreetatmsg,text="Choisir cible",bg="darkgrey")
         self.lbselectecible.pack()
